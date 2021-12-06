@@ -1,0 +1,35 @@
+/*
+You can type here any CSS rule recognized by GTK+.
+You can temporarily disable this custom CSS by clicking on the “Pause” button above.
+
+Changes are applied instantly and globally, for the whole application.
+*/
+
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+
+toolbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size:10px;
+}
+
+.image-button  {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size:10px;
+	min-height: 0px;
+	margin-bottom: 0px;
+}
+
+button {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	min-height: 10px;
+
+}
+
+  treeview {
+      -GtkTreeView-vertical-separator: 2px;
+      -GtkTreeView-horizontal-separator: 0px;
+      -GtkTreeView-expander-size: 16;
+  }
