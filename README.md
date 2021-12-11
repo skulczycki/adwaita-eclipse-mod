@@ -8,8 +8,7 @@ Clone this repository and copy `Adwaita-Eclipse-Mod/` directory to `~/.themes/Ad
 Suggestion:
 
 ```bash
-mkdir -p ~/.themes/
-git clone https://github.com/skulczycki/adwaita-eclipse-mod.git
+mkdir -p ~/.themes/ && cd ~/.themes/ && git clone https://github.com/skulczycki/adwaita-eclipse-mod.git
 ```
 
 Run Eclipse with:
